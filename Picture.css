@@ -1,0 +1,37 @@
+/* Estilos para o menu */
+#menu {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#menu ul li {
+    display: inline-block;
+    margin-right: 20px; /* Espaçamento entre os botões */
+}
+
+#menu ul li a {
+    text-decoration: none;
+    font-size: 25px; /* Tamanho da fonte ajustado para 25px */
+    color: black; /* Cor preta para os botões */
+    padding: 10px 20px; /* Espaçamento interno para os botões */
+    transition: color 0.3s, transform 0.3s, background-color 0.3s; /* Transições para cor, tamanho e fundo */
+    border-radius: 5px; /* Bordas arredondadas para os botões */
+}
+
+/* Efeito ao passar o mouse sobre o link */
+#menu ul li a:hover {
+    color: #FF4500; /* Cor do texto ao passar o mouse (laranja) */
+    transform: scale(1.1); /* Aumenta o botão levemente */
+    background-color: #ddd; /* Cor de fundo ao passar o mouse */
+}
+
+/* Efeito de clique no link (quando o link é pressionado) */
+#menu ul li a:active {
+    color: #FF0000; /* Cor vermelha ao clicar */
+    background-color: #ffcccc; /* Fundo claro quando pressionado */
+}
